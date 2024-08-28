@@ -1,0 +1,7 @@
+
+def exibir_mensagem(mensagem):
+    print(mensagem)
+
+#chamada do procedimento
+exibir_mensagem("olá, mundo!")
+
