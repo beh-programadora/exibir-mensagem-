@@ -1,0 +1,34 @@
+
+### .gitignore
+
+```gitignore
+# Ignorar arquivos Python compilados
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar diretórios de cache
+__pycache__/
+Enunciado do Projeto
+# Enunciado do Projeto: Exibidor de Mensagem
+
+## Objetivo
+
+Desenvolver um script em Python que defina uma função para exibir uma mensagem fornecida como argumento e demonstre o uso dessa função.
+
+## Requisitos
+
+1. O script deve definir uma função chamada `exibir_mensagem` que recebe um argumento chamado `mensagem`.
+2. A função deve imprimir a mensagem na tela.
+3. O script deve incluir uma chamada para a função `exibir_mensagem`, passando uma mensagem de exemplo.
+
+## Passos para Implementação
+
+1. Crie um arquivo chamado `exibidor_mensagem.py`.
+2. No arquivo, defina a função `exibir_mensagem` que utiliza a função `print()` para exibir a mensagem.
+3. Após a definição da função, faça uma chamada de exemplo para `exibir_mensagem` passando uma mensagem, como "Olá, mundo!".
+4. Salve e execute o script para verificar se a mensagem é exibida corretamente.
+
+## Exemplo de Saída Esperada
+
+Olá, mundo!
